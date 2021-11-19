@@ -1,0 +1,27 @@
+1.first
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+   int a=5;
+   int b=3;
+   int temp;
+   temp=a;
+   a=b;
+   b=temp;
+   system("pause");
+   return 0;
+}
+2.second
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+   int a=5;
+   int b=3;
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   system("pause");
+   return 0;
+}
